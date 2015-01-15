@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    {% load static from staticfiles %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+  <h1>Aqui se renderizara todo</h1>
+
+  {% block content %}
+
+  {% endblock %}
+</body>
+</html>
